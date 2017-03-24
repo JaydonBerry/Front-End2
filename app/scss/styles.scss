@@ -1,0 +1,114 @@
+$main-bg: #FFF;
+$main-colour-dark:   #0288D1;
+$main-colour:        #03A9F4;
+$main-colour-light:  #B3E5FC;
+$main-colour-text:   #FFFFFF;
+$accent-colour:         #607D8B;
+$icon-colour: #fff;
+
+body{
+	background: $main-bg;
+}
+
+@mixin header-style($colour, $size, $weight, $align){
+	color: $colour;
+	font-size: $size;
+	weight: $weight;
+	text-align: $align;
+}
+
+.welcome{
+	background: $main-colour;
+	color: $main-colour-text;
+}
+
+@mixin rm-circle-border{
+	border: 0;
+	border-radius: 0;	
+}
+
+.rm-border{
+	@include rm-circle-border;
+}
+
+.top-header{
+	@include header-style($main-colour-text, 2.25em, 250, left);
+}
+
+.sec-header{
+	@include header-style($accent-colour, 1.75em, 250, center);
+}
+
+.abs-centering{
+	transform: translate(0%, 50%);
+}
+
+.sbt-btn{
+	margin-top: 3em;
+	background: $main-colour;
+	letter-spacing: .25em;
+	color: $icon-colour;
+	text-transform: uppercase;
+	@include rm-circle-border;
+}
+
+.sbt-btn:active, .sbt-btn:hover{
+	color: #eee;
+	text-decoration: none;
+}
+.list-results{
+	-webkit-box-shadow: 0px .5px 4px 0px rgba(0, 0, 0, .35);
+	-moz-box-shadow: 0px .5px 4px 0px rgba(0, 0, 0, .35);
+	box-shadow: 0px .5px 4px 0px rgba(0, 0, 0, .35);
+}
+
+.search-box{
+	margin-top: 2em;
+}
+
+#map {
+    height: 350px;
+    width: 100%;
+}
+
+.buy-btn{
+	margin-bottom: 1.5em;
+}
+
+.panel-primary>.panel-heading{
+	background: $main-colour;
+}
+
+.btn-primary{
+	background: $main-colour;
+	border: none;
+}
+
+.content-container{
+	margin-bottom: 4em;
+}
+
+.business-name{
+	@include header-style($main-colour-text, 1.75em, 250, center);
+}
+
+.price{
+	@include header-style($main-colour-text, 1, 250, center);
+}
+
+footer{
+	margin-top: 1%;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background: $main-colour-dark;
+}
+
+.footer-btn{
+	background: none;
+	@include rm-circle-border;
+	color: $icon-colour;
+	padding: .75em;
+	letter-spacing: .25em;
+	text-transform: uppercase;
+}

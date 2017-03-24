@@ -1,0 +1,61 @@
+[
+    {
+        "whiskey_name": "Jack Daniels (70Cl)",
+        "description": "A warm amber colour with aromas of sweet vanilla, this is a smooth, full-bodied whiskey, with flavours of orange, brown sugar and spice, and a long rich finish.<br><br>Jack Daniel registered his distillery in 1866, making it the oldest registered distillery in the United States. It's here in Lynchburg that every drop of Jack Daniel's Tennessee Whiskey is still produced and bottled today.",
+        "store": "Tesco",
+        "store_price":"£25.00", 
+        "store_url":"https://www.tesco.com/groceries/product/details/?id=274578121",
+        "lat": 53.650320, 
+        "lng": -1.782229
+    },
+
+    {
+        "whiskey_name": "Jack Daniels Honey (70Cl)",
+        "description":"Golden coloured, with rich aromas of honey and roasted nuts, the liqueur has naturally sweet honey flavours alongside delicate hints of molasses and pralines, followed by a long, rich honey nut finish.<br><br>Jack Daniel's Old No. 7 Tennessee Whiskey is a premium whiskey made using the finest ingredients and mellowed through 10 feet of sugar maple charcoal, before being aged in charred oak barrels. It is this unique way of making whiskey that makes Jack Daniel's what it is - a smooth sipping Tennessee whiskey and not a bourbon",
+        "store":"Tesco", 
+        "store_price":"£25.00", 
+        "store_url":"https://www.tesco.com/groceries/product/details/?id=274578121",
+        "lat": 53.713797, 
+        "lng": -1.629973
+    },
+
+    { 
+        "whiskey_name":"Jameson (70Cl)", 
+        "description":"Infused with the nuttiness of its sherry casks and the fragrant vanilla of bourbon casks, Jameson is a triple-distilled blend of pot still and fine grain whiskeys that is as versatile as it is smooth.<br><br>Triple distilled whisky like Jameson isn't just born smooth and balanced. It takes a carefully crafted process used over hundreds of years to get it just right. This tradition began in 1780 with the great Master Distiller John Jameson who discovered that three distillations was best for his Jameson Irish Whiskey and they continue his legacy to this day",
+        "store":"Tesco", 
+        "store_price":"£22.00", 
+        "store_url":"https://www.tesco.com/groceries/product/details/?id=265807032",
+        "lat": 53.780712, 
+        "lng": -1.788419
+    },
+
+    { 
+       "whiskey_name":"The Famous Grouse Scotch Whiskey (70Cl)", 
+        "description":"Over 100 years of craftsmanship go into making the UK's No.1 blended whisky. The Famous Grouse is a perfectly balanced blend of the finest malts, including Highland Park and The Macallan, and sweet grain whisky. The rich rounded flavour is Famous for a Reason.",
+        "store":"Tesco", 
+        "store_price":"£14.00", 
+        "store_url":"https://www.tesco.com/groceries/product/details/?id=256521498",
+        "lat": 53.703604, 
+        "lng": 53.703604
+    },
+
+    { 
+        "whiskey_name":"Talisker Skye Single Malt Scotch Whiskey (70Cl)", 
+        "description":"The only distillery on the Isle of Skye, Talisker has been distilled by the sea on Skye since 1830, with its elemental style truly reflecting its maritime surroundings. Talisker Skye pays tribute to the Isle Of Skye, the home of the Talisker distillery and a rich, varied landscape - from soft, serene shores to dark, jagged peaks of the Cuillin mountains. Introduced in early 2015, Talisker Skye brings with it a more well-rounded and sweet flavour profile packed with fresh citrus, sweet smoke, peppery spice and traditional Talisker maritime notes. It's matured in a combination of refill and toasted American oak casks, with a slightly higher proportion of toasted casks. Talisker Skye takes the distillery's classically rugged character and softens it out, while maintaining the smoky and sweet notes the distillery is known for. Best served neat or with a little water. More approachable, but undeniably Talisker, it's the ideal gift for those looking to explore the smoky world of Single Malts.",
+        "store":"Tesco", 
+        "store_price":"£39.00", 
+        "store_url":"https://www.tesco.com/groceries/product/details/?id=259155759",
+        "lat": 53.713258, 
+        "lng": -1.855372
+    },
+
+    {
+        "whiskey_name":"Old Samuel Blended Bourbon Whisky(70Cl)", 
+        "description":"Old Samuel is a smooth, Kentucky style Blended Bourbon Whiskey with a rich and well rounded flavour. Old Samuel can be savoured straight up, on the rocks or with cola for a longer, more refreshing drink.",
+        "store":"Tesco", 
+        "store_price":"£12.00", 
+        "store_url":"https://www.tesco.com/groceries/product/details/?id=262591595",
+        "lat": 53.758104, 
+        "lng": -1.745273
+    }
+]
