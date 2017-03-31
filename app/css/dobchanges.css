@@ -1,0 +1,11 @@
+.dobwarning{
+	background-color: #f2dede !important;
+	text-align: center;
+	border: 1px solid;
+	border-color: #cc0000;
+	border-radius: 4px;
+	padding: 15px;
+	color: #a94442;
+	margin-top: 15px;
+	visibility: hidden;
+}

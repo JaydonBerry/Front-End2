@@ -7,7 +7,10 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Local Whiskey</title>
 
-    <link rel="stylesheet" href="styles/styles.min.css">
+    <!--build:css styles/styles.min.css-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <!--endbuild-->
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,17 +24,14 @@
     <div class="col-xs-12 col-sm-12 container">
     
     <div class="col-xs-12 col-sm-12">
-      <h1 class="business-name">Tesco</h1>
-      <p class="lead price">Jack Daniels 70Cl £15.00</p>
+      <h1 class="business-name"></h1>
+      <p class="lead price"></p>
       </div>
     </div>
 </div>
 <div class="container col-xs-10 col-xs-offset-1 content-container">
-<div class="page-header"><p>A warm amber colour with aromas of sweet vanilla, this is a smooth, full-bodied whiskey, with flavours of orange, brown sugar and spice, and a long rich finish.<br><br>
-
-Jack Daniel registered his distillery in 1866, making it the oldest registered distillery in the United States. It's here in Lynchburg that every drop of Jack Daniel's Tennessee Whiskey is still produced and bottled today.</p>
-</div>
-  <a class = "btn btn-primary pull-right buy-btn" href = "http://www.tesco.com/groceries/product/details/?id=259155759" role = "button">Buy Online?</a>
+<div class="page-header"></div>
+  <a class = "btn btn-primary pull-right buy-btn" href="" role="button">Buy Online?</a>
   <div id="map"></div>
  </div>
   <footer>
@@ -42,22 +42,14 @@ Jack Daniel registered his distillery in 1866, making it the oldest registered d
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <script>
-      function initMap() {
-        var uluru = {lat: 53.650102, lng: -1.782430};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 16, 
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCm3y4YcJ0Kl9bwYK-imbD7WPFbnitX1Xg&callback=initMap">
-    </script>
-    <script src="js/main.min.js"></script>
+    <!--build:js js/main.min.js-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/bundle.js"></script>
+    <!--endbuild-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCm3y4YcJ0Kl9bwYK-imbD7WPFbnitX1Xg&callback=initMap"></script>
+
+
   </body>
 </html>

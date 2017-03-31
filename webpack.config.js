@@ -11,24 +11,13 @@ var config = {
     path: __dirname + '/app/js',
     filename: 'bundle.js',
   },
+    // module: {
+    //     loaders: [
+    //         { test: /\.css$/, loader: "style-loader!css-loader" }
+    //     ]
+    // },
   watch: true
 };
 
 module.exports = config;
-
-// module.exports = config;
-
-// module.exports = {
-//     entry: "./index.js",
-//     output: {
-//         path: __dirname,
-//         filename: "bundle.js"
-//     },
-//     module: {
-//         loaders: [
-//             { test: /\.css$/, loader: "style!css" }
-//         ]
-//     },
-//     watch: true
-// };
 
